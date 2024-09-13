@@ -1,0 +1,11 @@
+select, input, textarea{
+    padding:5px; border:1px solid #ddd; border-radius:5px; box-sizing:border-box;
+    min-width:300px;
+}
+.register-form{padding:10px; width:300px;}
+.register-form__col ~ .register-form__col{margin-top:20px;}
+.register-form__button{
+    padding:5px; border:1px solid #ddd; border-radius:5px; background-color:#eee;
+    width:100%;
+    font-size:15px;
+}
